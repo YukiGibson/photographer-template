@@ -656,11 +656,11 @@ acronym[title] {
     width: auto;
     max-width: none;
 }
-@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
+/*@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
     .navbar-brand img {
         image-rendering: -webkit-optimize-contrast;
     }
-}
+}*/
 .nav-fill .nav-item {
     text-align: left;
 }
@@ -1559,9 +1559,9 @@ ol {
     flex-direction: column;
     background: rgba(0, 0, 0, 0.4);
 }
-video::-webkit-media-controls {
+/*video::-webkit-media-controls {
     display: none !important
-}
+}*/
 /*-----------------------------------------------------------------------------------*/
 /*	12. PLYR
 /*-----------------------------------------------------------------------------------*/
@@ -2316,7 +2316,7 @@ a.more:after {
     box-shadow: 1px 1px 0 0 #1a1a1a, 2px 2px 0 0 #1a1a1a, 3px 3px 0 0 #1a1a1a, 4px 4px 0 0 #1a1a1a, 5px 5px 0 0 #1a1a1a, 6px 6px 0 0 #1a1a1a;
 }
 .tp-caption.tp-gradient {
-	background: transparent url(style/images/gradient.png) repeat-x;
+	background: transparent url(src/assets/images/gradient.png) repeat-x;
 }
 .tp-bannertimer {
     background: rgba(255, 255, 255, 0.25)
@@ -5435,7 +5435,7 @@ pre {
         padding-bottom: 20px;
     }
     .flickity-carousel img,
-    .flickity-slider-main .item,    
+    .flickity-slider-main .item,
 	.flickity-slider-main:not(.flickity-viewport-mode) .item,
 	.flickity-slider-main:not(.flickity-viewport-mode) img {
         height: 450px;
@@ -5511,7 +5511,7 @@ pre {
 	    margin: 0 15px;
 	}
     .flickity-carousel img,
-    .flickity-slider-main .item,    
+    .flickity-slider-main .item,
 	.flickity-slider-main:not(.flickity-viewport-mode) .item,
 	.flickity-slider-main:not(.flickity-viewport-mode) img {
         height: 250px;
