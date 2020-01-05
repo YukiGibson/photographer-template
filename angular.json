@@ -25,19 +25,15 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css",
+              "src/assets/css/plugins.css",
               "src/assets/revolution/css/settings.css",
               "src/assets/revolution/css/layers.css",
               "src/assets/revolution/css/navigation.css",
-              "src/assets/type/icons.css"
+              "src/assets/type/icons.css",
+              "src/styles.css",
+              "src/assets/css/color/rose.css"
             ],
-            "scripts": [
-                "node_modules/jquery/dist/jquery.min.js",
-                "src/assets/revolution/js/jquery.themepunch.tools.min.js",
-                "src/assets/revolution/js/jquery.themepunch.revolution.min.js",
-                "src/assets/js/plugins.js",
-                "src/assets/js/scripts.js"
-              ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -101,19 +97,15 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css",
-              "src/assets/revolution/css/settings.css",
+              "src/assets/css/plugins.css",
+              "src/assets/revolution//css/settings.css",
               "src/assets/revolution/css/layers.css",
               "src/assets/revolution/css/navigation.css",
-              "src/assets/type/icons.css"
+              "src/assets/type/icons.css",
+              "src/styles.css",
+              "src/assets/css/color/rose.css"
             ],
-            "scripts": [
-                "node_modules/jquery/dist/jquery.min.js",
-                "src/assets/revolution/js/jquery.themepunch.tools.min.js",
-                "src/assets/revolution/js/jquery.themepunch.revolution.min.js",
-                "src/assets/js/plugins.js",
-                "src/assets/js/scripts.js"
-              ]
+            "scripts": []
           }
         },
         "lint": {
